@@ -21,15 +21,14 @@ The **Projects** and **CV & Certifications** sections open in separate tabs to o
 ```bash
 de-portfolio/
 │
-├── index.html                 # Homepage
-├── about.html                 # About Me page
-├── projects.html              # Projects overview
-├── cv-certifications.html     # CV & Certifications
-├── contact.html               # Contact page
+├── index.html                 # Main long-scroll layout
+│
+├── projects.html              # Opens in new tab
+├── cv-certifications.html     # Opens in new tab
 │
 ├── assets/                    # Static files
 │   ├── images/                # Project images, screenshots
-│   ├── fonts/                 # Custom fonts
+│   ├── fonts/                 # Custom fonts (if needed)
 │   └── icons/                 # Icons or SVGs
 │
 ├── css/
@@ -38,8 +37,11 @@ de-portfolio/
 ├── js/
 │   └── script.js              # JavaScript for interactivity
 │
+├── DESIGN-THOUGHTS.md
+├── DECISIONS.md
 ├── README.md
 └── .gitignore
+
 ````
 
 ---
